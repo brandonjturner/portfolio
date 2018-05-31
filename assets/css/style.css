@@ -1,15 +1,25 @@
-﻿.navbar {
+﻿img {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 15px;
+}
+.navbar {
     background-color: #ffffff;
     border-bottom: solid;
     text-align: center;
     margin: auto;
     border-color: #cccccc;
+    width: 100%;
+    position: fixed;
     overflow: hidden;
+    border-color: #cccccc;
+    border-width: thin;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .leftnav a {
     float: left;
-    width: 350px;
+    width: 230px;
     overflow: hidden;
     margin: 14px 16px;
     color: white;
@@ -77,14 +87,40 @@ html, body {
     position: fixed;
     bottom: 0;
     width: 100%;
+    border-top: 2px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
 }
 .main-info {
-    background-color: white;
+    background-color: #ffffff;
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 90px;
+    align-items: center;
+    height: 360px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-color: #dddddd;
+    border-width: thin;
+    border: groove;
+    color: #777777;
+}
+.pmain-info {
+    background-color: #ffffff;
     width: 960px;
     margin: auto;
     padding: 20px;
     align-items: center;
+    margin-top: 90px;
     text-align: center;
+    color: #777777;
+    border-color: #dddddd;
+    border-width: thin;
+    border: groove;
+    height: 1370px;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 input[type=text], select, textarea {
     width: 100%;
@@ -110,10 +146,15 @@ input[type=submit]:hover {
 .contact {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     padding: 20px;
     width: 960px;
     margin: auto;
+    color: #777777;
+    border-color: #dddddd;
+    border-width: thin;
+    border: groove;
+    margin-top: 90px;
 }
 .rightnav li {
     display: inline-block;
@@ -131,4 +172,25 @@ input[type=submit]:hover {
     }
 .rightnav li:last-of-type:after {
     content: '';
+}
+.right_item {
+    background-image: url(http://via.placeholder.com/300x300);
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 80px;
+}
+.left_item {
+    background-image: url(http://via.placeholder.com/300x300);
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin: 80px;
+}
+h1 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+p {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
 }
